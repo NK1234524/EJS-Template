@@ -1,0 +1,24 @@
+{
+  "name": "ejs-template",
+  "version": "1.0.0",
+  "description": "Hi today I am going to start my new learning & the topic is EJS templating.It plays a important role in the backend server formation.",
+  "main": "Index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NK1234524/EJS-Template.git"
+  },
+  "keywords": [],
+  "author": "Nishant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NK1234524/EJS-Template/issues"
+  },
+  "homepage": "https://github.com/NK1234524/EJS-Template#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  }
+}
