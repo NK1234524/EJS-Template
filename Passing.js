@@ -11,7 +11,7 @@ app.set("views engine","ejs");
 
 app.get("/rolldice",(req,res)=>{
     let num = Math.floor(Math.random()*6+1);
-    console.log("The output provided");
+    console.log(`The output provided is ${num}`);
     res.render("rolldice.ejs",{diceVal: num});
 })
 
