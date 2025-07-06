@@ -16,5 +16,5 @@ app.get("/",(req,res)=>{
 app.get("/instagram/:username",(req,res)=>{
     let {username}=req.params;
     res.render("Instagram.ejs",{username});
-    console.log(`Entered into ${username} instagram ID`);
+    console.log(`Hello ${username}`);
 })
