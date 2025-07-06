@@ -7,8 +7,9 @@
 </head>
 <body>
     <h1 text-align="center">The result is provided</h1>
-    <p>The rolled dice value <%= if (diceVal==6)
+    <p>The rolled dice value <%=diceVal%><% if (diceVal==6){
         %>
         <h3>Nice roll it again !</h3></p>
+        <%}%>
 </body>
 </html>
