@@ -17,5 +17,5 @@ app.get("/rolldice",(req,res)=>{
 
 app.get("/",(req,res)=>{
     res.send("Welcome to home page");
-    console.log("respinse provided");
+    console.log("response provided");
 })
